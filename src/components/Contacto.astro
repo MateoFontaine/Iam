@@ -1,0 +1,43 @@
+---
+const phoneNumber = "2267444899"; // Reemplaza con el número de WhatsApp al que quieres enviar el mensaje
+const defaultMessage = "Hola! estoy con Kira!"; // Mensaje predeterminado
+---
+
+<section>
+  <div class="flex justify-start m-4 flex-col">
+    <h1 class="text-4xl text-[#FF7700] mb-1">Contacto</h1>
+    <p>
+      Gracias por cuidar de mi querida Kira. Si la has encontrado o necesitas contactarme por cualquier motivo, por favor, no dudes en hacerlo. Kira es una parte muy importante de nuestra familia, y estaré eternamente agradecido por tu ayuda.
+    </p>
+  </div>
+  <div class="relative mx-5">
+    <input
+      id="whatsappMessage"
+      type="text"
+      placeholder={defaultMessage}
+      class="w-full border rounded-lg pl-3 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <button
+      id="whatsappButton"
+      class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#FF7700] text-white px-3 py-1 rounded-lg focus:outline-none hover:bg-[#FF9500]"
+    >
+      Enviar
+    </button>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const whatsappButton = document.getElementById("whatsappButton");
+    const whatsappMessageInput = document.getElementById("whatsappMessage");
+
+    whatsappButton.addEventListener("click", function () {
+      const message = whatsappMessageInput.value.trim() || `${defaultMessage}`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      
+      // Abre el enlace de WhatsApp en una nueva pestaña
+      window.open(url, "_blank");
+    });
+  });
+</script>
+
