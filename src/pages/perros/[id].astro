@@ -1,0 +1,44 @@
+---
+// Importaciones de componentes y datos
+import Layout from '../../layouts/Layout.astro';
+import Head from '../../components/Head.astro';
+import Picture from '../../components/Picture.astro';
+import Presentacion from '../../components/Presentacion.astro';
+import Caracterisitcas from '../../components/Caracteristicas.astro';
+import Contacto from '../../components/Contacto.astro';
+import Mapa from '../../components/Mapa.astro';
+import Footer from '../../components/footer.astro';
+import contenido from '../../data/Perros.json';
+export async function getStaticPaths() {
+  return contenido.perros.map(perro => ({
+    params: { id: perro.id.toString() }
+  }));
+}
+
+// Obtener el id de los parámetros
+const { id } = Astro.params;
+const perro = contenido.perros.find(p => p.id === Number(id));
+
+console.log('ID:', id);
+console.log('Perro:', perro);
+---
+
+<Layout title={perro ? `Hola soy ${perro.Nombre}` : "Perro no encontrado"}>
+  <header>
+    <Head />
+  </header>
+  <main>
+    <Picture />
+    {perro ? (
+      <>
+        <Presentacion />
+        <Caracterisitcas />
+        <Contacto />
+        <Mapa />
+        <Footer />
+      </>
+    ) : (
+      <p>Perro no encontrado</p>
+    )}
+  </main>
+</Layout>

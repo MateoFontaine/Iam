@@ -7,6 +7,7 @@ import Caracterisitcas from '../components/Caracteristicas.astro'
 import Contacto from '../components/Contacto.astro'
 import Mapa from '../components/Mapa.astro'
 import Footer from '../components/footer.astro'
+import Carousel from '../components/Carousel.jsx';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -15,6 +16,8 @@ import Footer from '../components/footer.astro'
 	</header>
 	<main>
 		<Picture />
+		<!-- A futuro usar un carrucel -->
+		<!-- <Carousel client:load /> -->
 		<Presentacion />
 		<Caracterisitcas />
 		<Contacto />

@@ -1,0 +1,20 @@
+{
+    "perros": [
+        {
+            "id": 1,
+            "imagen": "/Perro.jpg",
+    "Presentacion": "¡Guau! Mi nombre es Pandora, una perrita llena de energía y amor. Me encanta correr por el parque, jugar con mi pelota favorita y, sobre todo, hacer nuevos amigos. Tengo una habilidad especial para detectar cuándo alguien necesita una dosis extra de cariño, y siempre estoy lista para dar lametazos y recibir mimos.",
+    "Nombre": "Pandora",
+    "Raza": "Calle",
+    "Edad": 1,
+    "Genero": "Hembra",
+    "SobreMi": "Soy muy juegetona, estoy castrada y me encanta jugar con otros perros, con los gatos no me llevo muy bien",
+    "Contacto": "Gracias por cuidar de mi querida Pandora. Si la has encontrado o necesitas contactarme por cualquier motivo, por favor, no dudes en hacerlo. Pandora es una parte muy importante de nuestra familia, y estaré eternamente agradecido por tu ayuda.",
+    "Telefono": 2254596659,
+    "Instagram": "https://www.instagram.com/matefontaine/",
+    "facebook": "",
+    "Gmail": "Mateofontaine7@gmail.com",
+    "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1059625903004!2d-56.867684123930644!3d-37.12639399506778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cf9d945e8e3%3A0x44952a763e2e4a56!2sSan%20Mart%C3%ADn%20268%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1729873612891!5m2!1sen!2sar"
+        }
+    ]
+}

@@ -1,10 +1,34 @@
 ---
+import contenido from "../data/Perros.json";
+const { id } = Astro.params;
+const perro = contenido.perros.find(p => p.id === Number(id));
 ---
+
 <section class="animate-fadeInSlow">
     <div class="flex justify-start m-4 flex-col">
         <h1 class="text-4xl text-[#FF7700] mb-1">Donde vivo</h1>
     </div>
     <div class="mx-4 mb-6">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1059625903004!2d-56.867684123930644!3d-37.12639399506778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cf9d945e8e3%3A0x44952a763e2e4a56!2sSan%20Mart%C3%ADn%20268%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1729873612891!5m2!1sen!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+        {perro?.iframeUrl ? ( // Verifica si hay una URL de iframe
+            <iframe
+                src={perro?.iframeUrl}
+                width="100%"
+                height="250"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        ) : (
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1059625903004!2d-56.867684123930644!3d-37.12639399506778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cf9d945e8e3%3A0x44952a763e2e4a56!2sSan%20Mart%C3%ADn%20268%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1729873612891!5m2!1sen!2sar"
+                width="100%"
+                height="250"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        )}
+    </div>
 </section>

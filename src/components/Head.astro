@@ -1,9 +1,19 @@
 ---
-
+import contenido from "../data/Perros.json";
+const { id } = Astro.params;
+const perro = contenido.perros.find(p => p.id === Number(id));
+console.log('ID:', id);
+console.log('Perro:', perro);
 ---
 
 <section class="flex justify-center items-center mt-3 animate-fadeInSlow">
     <div class="bg-[#FF7700] p-2 px-8 rounded-xl">
-        <h1 class="text-white text-3xl">I am <span class="text-black">Pandora</span></h1>
+        {perro ? (
+            <>
+        <h1 class="text-white text-3xl">I am <span class="text-black">{perro.Nombre}</span></h1>
+        </>
+        ) : (
+            <p>Perro no encontrado</p>
+        )}
     </div>
 </section>

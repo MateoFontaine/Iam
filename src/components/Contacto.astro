@@ -1,6 +1,10 @@
 ---
-const phoneNumber = "2267444899"; // Número de WhatsApp al que quieres enviar el mensaje
-const defaultMessage = "Hola! estoy con Pandora!"; // Mensaje predeterminado
+import contenido from "../data/Perros.json";
+const { id } = Astro.params;
+const perro = contenido.perros.find(p => p.id === Number(id));
+console.log('ID:', id);
+console.log('Perro:', perro);
+
 ---
 
 <section class="animate-fadeInSlow">
@@ -14,13 +18,13 @@ const defaultMessage = "Hola! estoy con Pandora!"; // Mensaje predeterminado
     <input
       id="whatsappMessage"
       type="text"
-      placeholder={defaultMessage}
+      placeholder={`Hola! estoy con ${perro?.Nombre || "tu perro"}`}
       class="w-full border rounded-lg pl-3 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-[#FF7700]"
     />
     <button
       id="whatsappButton"
-      data-phone-number={phoneNumber}
-      data-default-message={defaultMessage}
+      data-phone-number={perro?.Telefono}
+      data-default-message={`Hola! estoy con ${perro?.Nombre || "tu perro"}`}
       class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#FF7700] text-white px-3 py-1 rounded-lg focus:outline-none hover:bg-[#FF9500]"
     >
       Enviar

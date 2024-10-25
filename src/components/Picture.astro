@@ -1,6 +1,19 @@
 ---
+import contenido from "../data/Perros.json";
+const { id } = Astro.params;
+const perro = contenido.perros.find(p => p.id === Number(id));
+console.log('ID:', id);
+console.log('Perro:', perro);
 ---
 
 <section class="flex justify-center items-center">
-    <img src="/Perro.jpg" alt="perro" class="mt-4 w-full">
+    {perro ? ( // Verifica si `perro` está definido
+        <img 
+            src={perro.imagen} 
+            alt={perro.Nombre || "Perro"} 
+            class="mt-4 w-full"
+        />
+    ) : (
+        <p>No se encontró el perro.</p> // Mensaje alternativo si no hay perro
+    )}
 </section>
