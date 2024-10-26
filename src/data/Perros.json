@@ -2,19 +2,35 @@
     "perros": [
         {
             "id": 1,
-            "imagen":"/Perro.jpg",
-    "Presentacion": "¡Guau! Mi nombre es Pandora, una perrita llena de energía y amor. Me encanta correr por el parque, jugar con mi pelota favorita y, sobre todo, hacer nuevos amigos. Tengo una habilidad especial para detectar cuándo alguien necesita una dosis extra de cariño, y siempre estoy lista para dar lametazos y recibir mimos.",
-    "Nombre": "Pandora",
-    "Raza": "Calle",
-    "Edad": 1,
-    "Genero": "Hembra",
-    "SobreMi": "Soy muy juegetona, estoy castrada y me encanta jugar con otros perros, con los gatos no me llevo muy bien",
-    "Contacto": "Gracias por cuidar de mi querida Pandora. Si la has encontrado o necesitas contactarme por cualquier motivo, por favor, no dudes en hacerlo. Pandora es una parte muy importante de nuestra familia, y estaré eternamente agradecido por tu ayuda.",
-    "Telefono": 2254596659,
-    "Instagram": "https://www.instagram.com/matefontaine/",
-    "facebook": "",
-    "Gmail": "Mateofontaine7@gmail.com",
-    "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1059625903004!2d-56.867684123930644!3d-37.12639399506778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cf9d945e8e3%3A0x44952a763e2e4a56!2sSan%20Mart%C3%ADn%20268%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1729873612891!5m2!1sen!2sar"
+            "imagen": "/Perro.jpg",
+            "Presentacion": "¡Guau! Mi nombre es Pandora, una perrita llena de energía y amor. Me encanta correr por el parque, jugar con mi pelota favorita y, sobre todo, hacer nuevos amigos. Tengo una habilidad especial para detectar cuándo alguien necesita una dosis extra de cariño, y siempre estoy lista para dar lametazos y recibir mimos.",
+            "Nombre": "Pandora",
+            "Raza": "Calle",
+            "Edad": 1,
+            "Genero": "Hembra",
+            "SobreMi": "Soy muy juegetona, estoy castrada y me encanta jugar con otros perros, con los gatos no me llevo muy bien",
+            "Contacto": "Gracias por cuidar de mi querida Pandora. Si la has encontrado o necesitas contactarme por cualquier motivo, por favor, no dudes en hacerlo. Pandora es una parte muy importante de nuestra familia, y estaré eternamente agradecido por tu ayuda.",
+            "Telefono": 2254596659,
+            "Instagram": "https://www.instagram.com/matefontaine/",
+            "facebook": "",
+            "Gmail": "Mateofontaine7@gmail.com",
+            "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1059625903004!2d-56.867684123930644!3d-37.12639399506778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cf9d945e8e3%3A0x44952a763e2e4a56!2sSan%20Mart%C3%ADn%20268%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1729873612891!5m2!1sen!2sar"
+        },
+        {
+            "id": 2,
+            "imagen": "/Perro2.jpg",
+            "Presentacion": "¡Guau! Mi nombre es Liza, y soy una perrita que siempre está lista para la acción y la aventura. Me encanta ser el centro de atención (¡lo admito!) y tengo una pasión por descubrir cada rincón del parque y hacerme amiga de cada humano y perrito que encuentro. En el escenario, me siento libre y feliz, porque puedo mostrarle al mundo mi verdadera esencia: una mezcla de energía, curiosidad y un corazón gigante lleno de amor.Tengo un olfato especial para reconocer cuándo alguien necesita una buena dosis de compañía y cariño. Si estás triste, ahí estaré, lista para darte un buen lametazo y poner una sonrisa en tu cara. ¡Así que prepárense para una noche llena de diversión y muchos, muchos ladridos!",
+            "Nombre": "Liza",
+            "Raza": "Calle",
+            "Edad": 7,
+            "Genero": "Hembra",
+            "SobreMi": "¡Hola! Soy Liza, una perrita tranquila y muy juguetona. Me llevo bien con todos los animales (aunque con los gatos no tanto) y con los nenes me dejo hacer de todo. ¡Listos para jugar y compartir mucho cariño!",
+            "Contacto": "Gracias por cuidar a mi querida Liza. Si la has encontrado o necesitas contactarme por cualquier motivo, no dudes en hacerlo. Liza es una parte muy importante de nuestra familia, y siempre estaré agradecido por tu ayuda.",
+            "Telefono": 1135602727,
+            "Instagram": "",
+            "facebook": "",
+            "Gmail": "",
+            "iframeUrl":"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3291.1294289837065!2d-58.62206244486457!3d-34.42346735769389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1729910984889!5m2!1sen!2sar"
         }
     ]
 }
