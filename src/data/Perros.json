@@ -2,7 +2,6 @@
     "perros": [
         {
             "id": 1,
-            "imagen": "/Perro.jpg",
     "Presentacion": "¡Guau! Mi nombre es Pandora, una perrita llena de energía y amor. Me encanta correr por el parque, jugar con mi pelota favorita y, sobre todo, hacer nuevos amigos. Tengo una habilidad especial para detectar cuándo alguien necesita una dosis extra de cariño, y siempre estoy lista para dar lametazos y recibir mimos.",
     "Nombre": "Pandora",
     "Raza": "Calle",
