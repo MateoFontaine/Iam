@@ -7,10 +7,10 @@ const perro = contenido.perros.find(p => p.id === Number(id));
 <section class="animate-fadeInSlow">
     <div class="flex justify-start m-4 flex-col">
         <h1 class="text-4xl text-[#FF7700] mb-1">Características</h1>
-        <p class="text-black"><span class="text-[#ff7700]">Nombre:</span> {perro.Nombre}</p>
-        <p class="text-black"><span class="text-[#ff7700]">Raza:</span> {perro.Raza}</p>
-        <p class="text-black"><span class="text-[#ff7700]">Edad:</span> {perro.Edad}</p>
-        <p class="text-black"><span class="text-[#ff7700]">Género:</span> {perro.Genero}</p>
-        <p class="text-black"><span class="text-[#ff7700]">Sobre mi:</span> {perro.SobreMi}</p>
+        <p class="text-black"><span class="text-[#ff7700]">Nombre:</span> {perro?.Nombre}</p>
+        <p class="text-black"><span class="text-[#ff7700]">Raza:</span> {perro?.Raza}</p>
+        <p class="text-black"><span class="text-[#ff7700]">Edad:</span> {perro?.Edad}</p>
+        <p class="text-black"><span class="text-[#ff7700]">Género:</span> {perro?.Genero}</p>
+        <p class="text-black"><span class="text-[#ff7700]">Sobre mi:</span> {perro?.SobreMi}</p>
     </div>
 </section>
