@@ -1,28 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Head from '../components/Head.astro';
-import Picture from '../components/Picture.astro'
-import Presentacion from '../components/Presentacion.astro'
-import Caracterisitcas from '../components/Caracteristicas.astro'
-import Contacto from '../components/Contacto.astro'
-import Mapa from '../components/Mapa.astro'
-import Footer from '../components/footer.astro'
-import Carousel from '../components/Carousel.jsx';
+import Header from '../components/index/Header.astro'
 ---
 
-<Layout title="Welcome to Astro.">
-	<header>
-		<Head />
-	</header>
-	<main>
-		<Picture />
-		<!-- A futuro usar un carrucel -->
-		<!-- <Carousel client:load /> -->
-		<Presentacion />
-		<Caracterisitcas />
-		<Contacto />
-		<Mapa />
-		<Footer />
-
-	</main>
+<Layout title="DondeEstoy">
+	<Header />
+	
 </Layout>
