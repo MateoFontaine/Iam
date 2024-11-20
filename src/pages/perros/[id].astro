@@ -24,6 +24,8 @@ console.log('Perro:', perro);
 ---
 
 <Layout title={perro ? `Hola soy ${perro.Nombre}` : "Perro no encontrado"}>
+  <div class="other">
+  <div class="all">
   <header>
     <Head />
   </header>
@@ -41,4 +43,29 @@ console.log('Perro:', perro);
       <p>Perro no encontrado</p>
     )}
   </main>
+</div>
+</div>
 </Layout>
+
+<style>
+  @media (min-width: 1024px) {
+  .other{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 16px;
+  }
+}
+</style>
