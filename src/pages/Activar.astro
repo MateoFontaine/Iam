@@ -7,8 +7,41 @@ import Frecuentes from '../components/index/Frecuentes.astro'
 ---
 
 <Layout title="Activar IamPawQR">
+    <div class="other">
+    <div class="all">
 	<Header />
     <Content />
     <Frecuentes />
+    <div class="fuera">
     <Footer />
+    </div>
+    </div>
+    </div>
 </Layout>
+
+
+<style>
+    @media (min-width: 1024px) {
+    .other{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center ;
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+    }
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 40%;
+      border: 2px solid gray;
+      border-radius: 16px;
+    }
+    .fuera{
+        display: none;
+    }
+  }
+  </style>
