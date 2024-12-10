@@ -95,6 +95,38 @@
             "facebook": "",
             "Gmail": "carlospetraru@hotmail.com ",
             "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.540859585097!2d-56.88236241092229!3d-37.11604552268807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9d1fc780dc1f%3A0x6b8142564f214c29!2sDe%20los%20Titanes%201529%2C%20B7167%20Pinamar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1733763375612!5m2!1sen!2sar"
+        },
+        {
+            "id": 7,
+            "imagen": "/Perro7.png",
+            "Presentacion": "Hola! Soy Max Yañez.",
+            "Nombre": "Max",
+            "Raza": "Teckel",
+            "Edad": "Naci el 9/11/24",
+            "Genero": "Macho",
+            "SobreMi": "Amo a mi familia!",
+            "Contacto": "Gabriela o Nicolás.",
+            "Telefono": 2254526208,
+            "Instagram": "https://www.instagram.com/chuikchuikok/",
+            "facebook": "",
+            "Gmail": "chuikchuik.pinamar@gmail.com",
+            "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.614470311464!2d-56.86653252340831!3d-37.11429369438846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9ce8ba7c110f%3A0xdfccba191d72b43a!2sJonas%20640%2C%20B7167%20Pinamar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1733791206452!5m2!1sen!2sar"
+        },
+        {
+            "id": 8,
+            "imagen": "/Perro8.jpeg",
+            "Presentacion": "Hola, soy coco!.",
+            "Nombre": "Coco Lambusta",
+            "Raza": "Golden Retriever",
+            "Edad": "4 meses",
+            "Genero": "Macho",
+            "SobreMi": "Me gusta jugar y romper cosas, pero soy bueno y sano.",
+            "Contacto": "Octavio Lambusta.",
+            "Telefono": 2254612660,
+            "Instagram": "https://www.instagram.com/Otilambusta/",
+            "facebook": "",
+            "Gmail": "Lambustavio@gmail.com",
+            "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.6433368102826!2d-56.878262323408315!3d-37.11360669434966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9d200b1abe8b%3A0xa130eed1e1dd1f9f!2sDe%20las%20Nayades%2C%20B7167%20Pinamar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1733791502885!5m2!1sen!2sar"
         }
     ]
 }
