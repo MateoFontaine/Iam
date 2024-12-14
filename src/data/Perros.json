@@ -191,8 +191,7 @@
             "facebook": "",
             "Gmail": "alericcicaro@gmail.com",
             "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.52962414889!2d-56.911380823299154!3d-37.14010429584003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9de87b2dd491%3A0xec11ae89a5df2c1f!2sSuboficial%20J.%20N.%20Aguila%20749%2C%20B7167%20Valeria%20del%20Mar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1734021287202!5m2!1sen!2sar"
-        }
-        ,
+        },
         {
             "id": 13,
             "imagen": "/Perro13.jpeg",
@@ -208,6 +207,22 @@
             "facebook": "",
             "Gmail": "Piccoloale85@gmail.com",
             "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26243.217375860473!2d-58.436938447800266!3d-34.69503488193759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccfbdfe9ce15%3A0xf96ae66cb468bd9f!2sLan%C3%BAs%20Oeste%2C%20B1824%20Lan%C3%BAs%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1733951138492!5m2!1sen!2sar"
+        },
+        {
+            "id": 14,
+            "imagen": "/Perro14.jpg",
+            "Presentacion": "Leoncita tiene apenas 2 meses. La dejaron abandonada en la puerta de la casa de una persona, que fue la que me la dio en adopción. Es muy juguetona, inteligente, dulce e inquieta. El 13/12 le dieron su primer vacuna. Goza de buena salud.",
+            "Nombre": "Leona",
+            "Raza": "Indefinida",
+            "fechaNacimiento": "2024-10-15",
+            "Genero": "Hembra",
+            "SobreMi": "Mi nombre es Sofía Lezcano. Tengo 31 años y soy Psicopedagoga. Vivo con en ella en un duplex en Mar de Ostende (Prov. Bs.As)",
+            "Contacto": "Si allí no me encuentran, estaré en Av. Tridente 969.",
+            "Telefono": 2254457574 ,
+            "Instagram": "https://www.instagram.com/Lic.sofialezcano/",
+            "facebook": "",
+            "Gmail": "Lic.psp.sofialezcano@gmail.com",
+            "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.800818438305!2d-56.87913592196071!3d-37.13365349547942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9daaa92395a7%3A0x147969a33a7ae2e!2sAv.%20Robette%20743%2C%20B7167%20Ostende%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1734187697570!5m2!1sen!2sar"
         }
     ]
 }
