@@ -310,7 +310,7 @@
             "Presentacion": "Hola! Soy Roque. Soy un galgo rescatado de 5 años. Mi dueño se llama Felipe y yo lo amo mucho. Si me encontras por favor llamalo que lo voy a estar extrañando 🐶",
             "Nombre": "ROQUE",
             "Raza": "Galgo",
-            "fechaNacimiento": "2024-01-14",
+            "fechaNacimiento": "2019-01-14",
             "Genero": "Macho",
             "SobreMi": "Soy Felipe, dueño de roque. Por favor llamame en caso de encontrarlo. ",
             "Contacto": "0226715404402",
@@ -319,6 +319,22 @@
             "facebook": "",
             "Gmail": "rovarettif@gmail.com",
             "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.686778558138!2d-56.873503023300245!3d-37.11257279429185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cde1ec17b0f%3A0xfb9ced31ea056c76!2sDel%20Tuy%C3%BA%201132%2C%20B7167%20Pinamar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1736276585806!5m2!1sen!2sar"
+        },
+        {
+            "id": 21,
+            "imagen": "/Perro21.jpeg",
+            "Presentacion": "Me llamo Arya",
+            "Nombre": "Arya",
+            "Raza": "Perro Lobo Americano",
+            "fechaNacimiento": "2024-08-25",
+            "Genero": "Femenino",
+            "SobreMi": "Soy súper sociable",
+            "Contacto": "Andrea",
+            "Telefono": 1159080877,
+            "Instagram": "",
+            "facebook": "",
+            "Gmail": "",
+            "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12751.419751836364!2d-56.769897625042134!3d-36.965521210507355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c8616062df21d%3A0x9015822997986510!2sVillarobles!5e0!3m2!1sen!2sar!4v1737502445649!5m2!1sen!2sar"
         }
 
     ]
