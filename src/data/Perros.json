@@ -335,6 +335,22 @@
             "facebook": "",
             "Gmail": "",
             "iframeUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12751.419751836364!2d-56.769897625042134!3d-36.965521210507355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c8616062df21d%3A0x9015822997986510!2sVillarobles!5e0!3m2!1sen!2sar!4v1737502445649!5m2!1sen!2sar"
+        },
+        {
+            "id": 22,
+            "imagen": "/Perro22.jpg",
+            "Presentacion": "Me llamo Lolo",
+            "Nombre": "Lolo",
+            "Raza": "",
+            "fechaNacimiento": "",
+            "Genero": "",
+            "SobreMi": "",
+            "Contacto": "Andrea",
+            "Telefono": 1161404942,
+            "Instagram": "",
+            "facebook": "",
+            "Gmail": "",
+            "iframeUrl":""
         }
 
     ]
